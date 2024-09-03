@@ -32,7 +32,7 @@ def clean_education(x):
 
 @st.cache
 def load_data():
-    df = pd.read_csv(r"C:\Users\conne\OneDrive\Documents\GitHub\Machine_Learning_Project\survey_results_public.csv")
+    df = pd.read_csv(r"C:\Users\conne\OneDrive\Documents\GitHub\Machine_Learning_Project\Employee\saved_steps.pkl")
     df = df[["Country", "EdLevel", "YearsCodePro", "Employment", "ConvertedComp"]]
     df = df[df["ConvertedComp"].notnull()]
     df = df.dropna()

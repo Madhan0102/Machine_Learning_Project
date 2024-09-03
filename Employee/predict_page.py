@@ -4,7 +4,7 @@ import numpy as np
 
 
 def load_model():
-    with open(r'C:\Users\conne\OneDrive\Documents\GitHub\Machine_Learning_Project\saved_steps.pkl', 'rb') as file:
+    with open(r'C:\Users\conne\OneDrive\Documents\GitHub\Machine_Learning_Project\Employee\saved_steps.pkl', 'rb') as file:
         data = pickle.load(file)
     return data
 
